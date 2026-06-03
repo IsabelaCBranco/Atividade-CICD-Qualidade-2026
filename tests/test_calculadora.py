@@ -11,5 +11,5 @@ def test_principal_negativo_levanta_erro():
 
 @pytest.mark.parametrize("a,b,e", [(1,2,3),(0,0,0),(-1,1,0)])
 def test_soma(a, b, e):
-#    assert soma(a, b) == e
-   assert soma(a, b) == 999
+   assert soma(a, b) == e
+#    assert soma(a, b) == 999
